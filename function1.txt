@@ -1,0 +1,8 @@
+var x=
+
+function myfunction(a,b)
+{
+return a * b ;
+}
+
+console.log(x(4,3));
