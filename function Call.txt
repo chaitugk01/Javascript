@@ -1,0 +1,22 @@
+
+
+// call used to invoke a function with owner of first argument
+var person =
+{
+firstname : "Krishna",
+lastname : "Gattupalli",
+
+fullname: function ()
+{
+return this.firstname + " "+ this.lastname
+}
+
+}
+
+var obj = {
+ firstname : "Mary",
+ lastname:"rose",
+
+}
+
+console.log(person.fullname.call(obj));// Mary rose

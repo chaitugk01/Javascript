@@ -1,0 +1,12 @@
+// function constructor 
+
+function func(arg1, arg2)
+{
+this.firstname= arg1 ;
+this.lastname  = arg2 ;
+
+}
+
+var x = new func("Krishna","Gattupalli");
+
+console.log(x.firstname);
