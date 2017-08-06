@@ -1,0 +1,35 @@
+
+
+var arr = new Array('1','2','3');
+arr = arr.concat('a','b');
+//arr = arr.join('-');
+
+
+console.log(arr);
+
+
+var arr1 = ['2','1','5']
+
+// returns last element 
+arr1 = arr1.pop();
+console.log(arr1);
+
+var arr2 = ['2','1','5']
+
+// returns last element 
+var arr3 = arr2.push('3','3');
+console.log(arr3);
+
+// slice starts at index 1 and extracts up to 3 indexes 
+
+var arrslice = ['a','b','c','d','f','e'];
+
+console.log(arrslice.slice(1,4));
+
+console.log(arrslice.reverse());
+
+console.log(arrslice.sort())
+
+
+//
+
