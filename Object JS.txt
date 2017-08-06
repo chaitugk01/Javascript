@@ -1,0 +1,13 @@
+// Creating Object 
+var obj = {
+firstName: "Krishna",
+lastName: "Chaitanya",
+
+fullName: function()
+{
+return this.firstName + " " + this.lastName;
+}
+
+}
+
+console.log(obj.fullName());

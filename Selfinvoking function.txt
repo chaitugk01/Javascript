@@ -1,0 +1,7 @@
+
+(
+function ()
+{
+console.log(" i am a self invoking function");
+}
+)();
